@@ -5,4 +5,9 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0058-length-of-last-word](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/0058-length-of-last-word) |
+| [2727-number-of-senior-citizens](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/2727-number-of-senior-citizens) |
+## Array
+|  |
+| ------- |
+| [2727-number-of-senior-citizens](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/2727-number-of-senior-citizens) |
 <!---LeetCode Topics End-->

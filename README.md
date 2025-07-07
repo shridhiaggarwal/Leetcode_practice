@@ -19,4 +19,12 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->

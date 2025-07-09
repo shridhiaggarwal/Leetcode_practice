@@ -11,28 +11,40 @@
  * @return {ListNode}
  */
 var mergeTwoLists = function (list1, list2) {
-    let merge = new ListNode();
-    let mptr = merge;
-    let aptr = list1;
-    let bptr = list2;
-    while (aptr != null && bptr != null) {
-        if (aptr.val > bptr.val) {
-            mptr.next = bptr;
-            bptr = bptr.next;
+    if (list1 == null) {
+        return list2;
+    }
+    if (list2 == null) {
+        return list1;
+    }
+    if (list1 == null && list2 == null) {
+        return list1;
+    }
+    if (list1.val > list2.val) {
+        let temp = list1;
+        list1 = list2;
+        list2 = temp;
+    }
+    let a = list1;
+    let preva = a;
+    let b = list2;
+    while (a != null && b != null) {
+        if (a.val > b.val) {
+            let temp = b;
+            b = b.next;
+            preva.next = temp;
+            temp.next = a;
+            preva = temp;
         } else {
-            mptr.next = aptr;
-            aptr = aptr.next;
+            preva = a;
+            a = a.next;
         }
-        mptr = mptr.next;
     }
-    if (aptr != null) {
-        mptr.next = aptr;
+    if (b != null && preva != null) {
+        preva.next = b;
     }
-    if (bptr != null) {
-        mptr.next = bptr;
-    }
-    return merge.next;
+    return list1;
 };
 
 //time = O(n)
-//space = O(n)
+//space = O(1)

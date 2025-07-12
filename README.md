@@ -29,4 +29,17 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/0206-reverse-linked-list) |
+| [1013-fibonacci-number](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/1013-fibonacci-number) |
+## Math
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/1013-fibonacci-number) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/shridhiaggarwal/Leetcode_practice/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->

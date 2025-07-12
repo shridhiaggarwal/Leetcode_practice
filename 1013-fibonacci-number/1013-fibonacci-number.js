@@ -3,17 +3,10 @@
  * @return {number}
  */
 var fib = function (n) {
-    let arr = [0, 1];
-    if (n == 0) {
-        return arr[0];
+    //base case
+    if (n == 0 || n == 1) {
+        return n; //first return
     }
-    if (n == 1) {
-        return arr[1];
-    }
-    let answer = 0;
-    for (let i = 2; i <= n; i++) {
-        answer = arr[i - 1] + arr[i - 2];
-        arr.push(answer);
-    }
-    return answer;
+    //recursive case
+    return fib(n - 1) + fib(n - 2); //second return
 };
